@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(233, 226, 240);
+  }
+  section#parentBlock article {
+    background-color: wheat;
+    width: 80%;
+    margin: 50px auto;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  #chlidBlock article {
+    background-color: #efefef;
+    padding: 10px;
+    display: flex;
+  }
+  .proflie_img {
+    flex-basis: 75%;
+    background-color: #fff;
+  }
+  .proflie_details {
+    flex-basis: 75%;
+    background-color: #ccc;
+  }
+  .proflie_img img {
+    width: 100%;
+    border-radius: 100%;
+    padding: 20px;
+  }
+  ul {
+    list-style: none;
+    padding: 10px;
+  }
+  li {
+    background-color: #efefef;
+    padding: 10px;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 5px;
+  }
+  .micParent {
+    position: absolute;
+    right: 100px;
+    top: 45px;
+    background-color: red;
+    padding: 8.3px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .micParent i:hover {
+    background-color: #111;
+  }
